@@ -1,0 +1,524 @@
+Using pre-set license
+Built from '6000.0/respin/6000.0.51f1-a206c6c19c75' branch; Version is '6000.0.51f1 (01c3ff5872c5) revision 115711'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15587 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-06-14T21:00:34Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.51f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/laine/OneDrive/Desktop/GMG 2025/2025 GMG Unity Kit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50782
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/laine/OneDrive/Desktop/GMG 2025/2025 GMG Unity Kit
+C:/Users/laine/OneDrive/Desktop/GMG 2025/2025 GMG Unity Kit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3468]  Target information:
+
+Player connection [3468]  * "[IP] 192.168.8.145 [Port] 0 [Flags] 2 [Guid] 745892710 [EditorId] 745892710 [Version] 1048832 [Id] WindowsEditor(7,LaineyLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3468] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3468] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.51f1 (01c3ff5872c5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/laine/OneDrive/Desktop/GMG 2025/2025 GMG Unity Kit/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017798 seconds.
+- Loaded All Assemblies, in  0.938 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1697ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (171ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (333ms)
+				TypeCache.ScanAssembly (310ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (666ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (99ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.053 seconds
+Refreshing native plugins compatible for Editor in 9.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.666 seconds
+Domain Reload Profiling: 3692ms
+	BeginReloadAssembly (487ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (1289ms)
+		LoadAssemblies (1124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (343ms)
+				TypeCache.ScanAssembly (310ms)
+			BuildScriptInfoCaches (97ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1667ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (325ms)
+			ProcessInitializeOnLoadAttributes (982ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 9.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4755 unused Assets / (1.8 MB). Loaded Objects now: 5231.
+Memory consumption went from 90.2 MB to 88.5 MB.
+Total: 17.083200 ms (FindLiveObjects: 1.131300 ms CreateObjectMapping: 1.097500 ms MarkObjects: 11.461900 ms  DeleteObjects: 3.390200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16532.552600 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(3590b91b4603b465dbb4216d601bff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(3590b91b4603b465dbb4216d601bff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52978deca89b5547bfe7f2cc0d175ccc') in 0.0432785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '748cde8c4721f883dabc726348a9d18a') in 0.0007536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4851 unused Assets / (2.0 MB). Loaded Objects now: 5343.
+Memory consumption went from 89.5 MB to 87.4 MB.
+Total: 14.429800 ms (FindLiveObjects: 1.113500 ms CreateObjectMapping: 0.317300 ms MarkObjects: 10.594900 ms  DeleteObjects: 2.401700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 59.617672 seconds.
+  path: Assets/Scenes 1
+  artifactKey: Guid(9298ad777d1999e4fb88c740330c611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1 using Guid(9298ad777d1999e4fb88c740330c611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dddc16a1bae917ef97e12793a175d65b') in 0.0021494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.360620 seconds.
+  path: Assets/GMG Scripts/TurnBasedCombat/whitesquare.png
+  artifactKey: Guid(f05750d145cd26444a7e1fbc7fe726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/TurnBasedCombat/whitesquare.png using Guid(f05750d145cd26444a7e1fbc7fe726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b0c893bd38a2dcd53137c23c079bdcf') in 0.1626899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.474067 seconds.
+  path: Assets/GMG Scripts/GraphicalEffects
+  artifactKey: Guid(d299a0796d9b9db4ca33e3e1491137c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/GraphicalEffects using Guid(d299a0796d9b9db4ca33e3e1491137c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04fd2405d1354d1869c0f0ecefa3475f') in 0.0009599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.762297 seconds.
+  path: Assets/GMG Scripts/Pet
+  artifactKey: Guid(d1fa7b0d53aee274088864a527d26729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/Pet using Guid(d1fa7b0d53aee274088864a527d26729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '172041be877f1e7de2caf3ad06cff439') in 0.001078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.713062 seconds.
+  path: Assets/GMG Scripts/Spawn
+  artifactKey: Guid(3e8fa3f1059f6514ab45358abc1da8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/Spawn using Guid(3e8fa3f1059f6514ab45358abc1da8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3202623fead12b6c8dcf9859e185a2c') in 0.0010351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509881 seconds.
+  path: Assets/GMG Scripts/TurnBasedCombat
+  artifactKey: Guid(86c29bc95e4ce3241b7ac41efe0eb4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/TurnBasedCombat using Guid(86c29bc95e4ce3241b7ac41efe0eb4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5de739bcb549efe1b094a36d626e3419') in 0.0009985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393996 seconds.
+  path: Assets/GMG Scripts/Combat
+  artifactKey: Guid(510e23321e94bbe469f8336b00af4357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/Combat using Guid(510e23321e94bbe469f8336b00af4357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ff8d08f2e0afa73b755ac558e5f38ac') in 0.0011482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.334415 seconds.
+  path: Assets/GMG Scripts/Combat/OnRandomTimeStartCombat.cs
+  artifactKey: Guid(c2a751644480f8847b02ebe678c4ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/Combat/OnRandomTimeStartCombat.cs using Guid(c2a751644480f8847b02ebe678c4ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97be1978b6e77093383fa93edf32f15a') in 0.0011057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.440426 seconds.
+  path: Assets/GMG Scripts/Combat/SidescrollerShootProjectile.cs
+  artifactKey: Guid(98dd12a669d529248af6a59d29925a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/Combat/SidescrollerShootProjectile.cs using Guid(98dd12a669d529248af6a59d29925a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55fc96502cdca0be82dca5df3d3d1702') in 0.0017595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4856 unused Assets / (1.6 MB). Loaded Objects now: 5355.
+Memory consumption went from 93.8 MB to 92.3 MB.
+Total: 12.345600 ms (FindLiveObjects: 0.852600 ms CreateObjectMapping: 0.343600 ms MarkObjects: 9.078900 ms  DeleteObjects: 2.067600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 182.435640 seconds.
+  path: Assets/GMG Scripts/GameManager
+  artifactKey: Guid(58796c8746ecfa245bf2a062d6571e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/GameManager using Guid(58796c8746ecfa245bf2a062d6571e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6108898f6943d4eb22c2bdafc7fe2a40') in 0.0020456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.421990 seconds.
+  path: Assets/GMG Scripts/GameManager/DialogueManager.cs
+  artifactKey: Guid(160080f6eff648f4d9e75e287b88b2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/GameManager/DialogueManager.cs using Guid(160080f6eff648f4d9e75e287b88b2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb8e2f6b1beee3319b47e01df411ac6') in 0.0012227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4855 unused Assets / (1.3 MB). Loaded Objects now: 5354.
+Memory consumption went from 93.8 MB to 92.6 MB.
+Total: 13.264300 ms (FindLiveObjects: 0.946000 ms CreateObjectMapping: 0.885800 ms MarkObjects: 8.383500 ms  DeleteObjects: 3.047100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.739490 seconds.
+  path: Assets/GMG Scripts/GameManager/StateManager.cs
+  artifactKey: Guid(011faccddf7860949b32ec5d946385ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/GameManager/StateManager.cs using Guid(011faccddf7860949b32ec5d946385ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26e3ac89a071c70aa7540b7a01b0b22a') in 0.0025362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.562492 seconds.
+  path: Assets/GMG Scripts/GameManager/InventoryManager.cs
+  artifactKey: Guid(d07dcb0d891db8d4c877189dc11bea95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/GameManager/InventoryManager.cs using Guid(d07dcb0d891db8d4c877189dc11bea95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa7bc4c50ff44f68038c8402594c7ae8') in 0.0016162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4853 unused Assets / (2.2 MB). Loaded Objects now: 5352.
+Memory consumption went from 93.8 MB to 91.6 MB.
+Total: 12.579800 ms (FindLiveObjects: 0.737500 ms CreateObjectMapping: 0.344300 ms MarkObjects: 8.273900 ms  DeleteObjects: 3.222100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.807821 seconds.
+  path: Assets/GMG Scripts/GameManager/GameManager.cs
+  artifactKey: Guid(43ef6244fb14fde49a88d9375bd48ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/GameManager/GameManager.cs using Guid(43ef6244fb14fde49a88d9375bd48ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df135fbc4920d86b0ed270f696f9643f') in 0.0025602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.088 seconds
+Refreshing native plugins compatible for Editor in 9.98 ms, found 4 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.533 seconds
+Domain Reload Profiling: 3584ms
+	BeginReloadAssembly (538ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (1280ms)
+		LoadAssemblies (1268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (298ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (363ms)
+			ProcessInitializeOnLoadAttributes (817ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4864 unused Assets / (1.6 MB). Loaded Objects now: 5354.
+Memory consumption went from 95.6 MB to 94.1 MB.
+Total: 15.038500 ms (FindLiveObjects: 0.776400 ms CreateObjectMapping: 0.577400 ms MarkObjects: 11.437300 ms  DeleteObjects: 2.245400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 89.998128 seconds.
+  path: Assets/GMG Scripts/GameManager/GameManager.cs
+  artifactKey: Guid(43ef6244fb14fde49a88d9375bd48ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GMG Scripts/GameManager/GameManager.cs using Guid(43ef6244fb14fde49a88d9375bd48ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4205d6aec11acbbb42e44935205cddcb') in 0.003858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.345197 seconds.
+  path: Assets/Prefabs/Turn Combat/Enemy.prefab
+  artifactKey: Guid(c55aadc87fd117c43b38d4664af053b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turn Combat/Enemy.prefab using Guid(c55aadc87fd117c43b38d4664af053b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0269da9fafa2fcdfe0f63ac9bcafb56d') in 0.2726307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Turn Combat/Player.prefab
+  artifactKey: Guid(f8aa1996b72e49446a9bee55ef9f20af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turn Combat/Player.prefab using Guid(f8aa1996b72e49446a9bee55ef9f20af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6cea2a2f402421a29c3e4d9871d2142') in 0.0315529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Turn Combat/TurnCombatPrefab.prefab
+  artifactKey: Guid(2002a9f0b1732fe4e80b8c7ee2e62619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turn Combat/TurnCombatPrefab.prefab using Guid(2002a9f0b1732fe4e80b8c7ee2e62619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61b43c0f604b2fdc6cf598c7d1628bd3') in 0.0582024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 534
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Turn Combat/Player4.prefab
+  artifactKey: Guid(67a3a25efdbb4e64e8c6224e1e2a78b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turn Combat/Player4.prefab using Guid(67a3a25efdbb4e64e8c6224e1e2a78b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fa4b8f1b358564c5810eefb20226c6b') in 0.0272889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Turn Combat/Player3.prefab
+  artifactKey: Guid(521da3d9688244341b531b8c27e110e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turn Combat/Player3.prefab using Guid(521da3d9688244341b531b8c27e110e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '205902285386c33faa54fee57e5eb2e0') in 0.030774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
