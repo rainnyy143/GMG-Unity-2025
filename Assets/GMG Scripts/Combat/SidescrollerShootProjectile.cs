@@ -116,8 +116,10 @@ public class SidescrollerShootProjectile : MonoBehaviour {
 
 			//if (fireRateCounter == 0f)
 			//{
-                nextFire = Time.time + projectilesPerSecond;
-                Shoot();
+			Debug.Log("shooting");
+            nextFire = Time.time + 1f/projectilesPerSecond;
+            Shoot();
+
 			//}
 		}
 
