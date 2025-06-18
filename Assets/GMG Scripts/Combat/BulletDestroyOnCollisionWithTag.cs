@@ -40,7 +40,7 @@ public class BulletDestroyOnCollisionWithTag : MonoBehaviour
         }
         if (destroyBulletOnColiisionWithAnything && collision.tag != gameObject.tag)
         {
-            Debug.Log(collision.tag);
+            //Debug.Log(collision.tag);
             Destroy(gameObject);
         }
     }
